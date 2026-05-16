@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Kelayakan PIP - SMAN 4 Padang</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎓 Prediksi Kelayakan PIP</h1>
+                <p>Program Indonesia Pintar - SMAN 4 Padang</p>
+                <p class="subtitle">Menggunakan Machine Learning Naive Bayes</p>
+            </div>
+        </header>
+
+        <!-- Navigasi -->
+        <nav class="navbar">
+            <a href="/" class="nav-link active">Prediksi</a>
+            <a href="/informasi" class="nav-link">Informasi PIP</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="card">
+                <h2>Form Input Data Siswa</h2>
+                <p class="description">Isi data siswa di bawah ini untuk memprediksi kelayakan menerima PIP</p>
+                
+                <form id="form-prediksi" class="form-prediksi">
+                    <div id="form-container">
+                        <!-- Form fields akan dimuat dinamis dari API -->
+                        <div class="loading">
+                            <p>⏳ Memuat form...</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">
+                        🔍 Prediksi Kelayakan PIP
+                    </button>
+                </form>
+            </div>
+
+            <!-- Hasil Prediksi -->
+            <div id="hasil-container" style="display: none;">
+                <div class="card hasil-card">
+                    <h2>📊 Hasil Prediksi</h2>
+                    
+                    <div class="hasil-main">
+                        <div class="hasil-status">
+                            <h3>Status Kelayakan</h3>
+                            <div id="status-badge" class="status-badge"></div>
+                        </div>
+                        
+                        <div class="hasil-confidence">
+                            <h3>Tingkat Keyakinan</h3>
+                            <div class="confidence-bar">
+                                <div id="confidence-fill" class="confidence-fill"></div>
+                            </div>
+                            <p id="confidence-text" class="confidence-text"></p>
+                        </div>
+                    </div>
+
+                    <!-- Probabilitas Detail -->
+                    <div class="probabilitas-section">
+                        <h3>Probabilitas Setiap Kelas</h3>
+                        <div id="probabilities-container" class="probabilities-grid">
+                            <!-- Akan diisi dinamis -->
+                        </div>
+                    </div>
+
+                    <!-- Data Input yang Digunakan -->
+                    <div class="input-data-section">
+                        <h3>Data Input yang Digunakan</h3>
+                        <table class="data-table">
+                            <tbody id="input-data-body">
+                                <!-- Akan diisi dinamis -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <button type="button" class="btn btn-secondary" onclick="resetForm()">
+                        🔄 Prediksi Lagi
+                    </button>
+                </div>
+            </div>
+
+            <!-- Error Message -->
+            <div id="error-container" style="display: none;">
+                <div class="card error-card">
+                    <h3>⚠️ Terjadi Kesalahan</h3>
+                    <p id="error-message"></p>
+                    <button type="button" class="btn btn-secondary" onclick="resetForm()">
+                        🔄 Coba Lagi
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 SMAN 4 Padang | Sistem Prediksi PIP Berbasis Machine Learning</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
