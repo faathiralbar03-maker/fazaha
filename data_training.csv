@@ -1,0 +1,50 @@
+penghasilan_orang_tua,kondisi_rumah,pekerjaan_orang_tua,kepemilikan_rumah,status_ekonomi,penerima_kks,kelayakan_pip
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Rendah,Sederhana,Swasta,Sewa,Kurang Mampu,Ya,Layak
+Sedang,Biasa,Wiraswasta,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Swasta,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Pengusaha,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Pegawai Kantoran,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
+Sedang,Biasa,Swasta,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Petani,Milik Sendiri,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Profesional,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Wiraswasta,Sewa,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Pengusaha,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Pegawai Kantoran,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Swasta,Sewa,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Petani,Milik Sendiri,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Profesional,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Sedang,Biasa,Wiraswasta,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Pegawai Kantoran,Sewa,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Pengusaha,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Swasta,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
+Tinggi,Mewah,Profesional,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Wiraswasta,Sewa,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Petani,Milik Sendiri,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Pegawai Kantoran,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Pengusaha,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Swasta,Sewa,Cukup,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
+Tinggi,Mewah,PNS,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Wiraswasta,Milik Sendiri,Cukup,Tidak,Tidak Layak
+Rendah,Sederhana,Buruh,Sewa,Kurang Mampu,Ya,Layak
+Tinggi,Mewah,Profesional,Milik Sendiri,Mampu,Tidak,Tidak Layak
+Sedang,Biasa,Pegawai Kantoran,Sewa,Cukup,Tidak,Tidak Layak
+Rendah,Kumuh,Buruh,Sewa,Sangat Kurang,Ya,Layak
